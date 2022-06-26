@@ -18,9 +18,9 @@ import defaultMenu from '../demoData'
 const Home = () => {
   const [isLoading, setIsLoading] = useState(true)
   // const [settings, setSettings] = useState({ isLoading: true })
-  const [dailyPicks, setDailyPicks] = useState(picks)
+  const [dailyPicks] = useState(picks)
   // const [data, setData] = useState([])
-  const [menu, setMenu] = useState(defaultMenu)
+  const [menu] = useState(defaultMenu)
   // const [params, setParams] = useState({
   //   from: 0,
   //   size: 1,
